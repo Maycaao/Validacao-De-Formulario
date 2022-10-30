@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <!-- JS -->
+    <script src="./js/index.js" defer></script>
+    <script src="./js/validations.js" defer></script>
+    <script src="./js/DOM.JS" defer></script>
+    <!-- ICONS -->
+    <script src="https://kit.fontawesome.com/801b5b582c.js" crossorigin="anonymous"></script>
+    <title>Formulário</title>
+</head>
+<body>
+    <main class="container">
+        <section class="texts">
+            <h1>
+                Learn to code by <br>watching others
+            </h1>
+            <p>
+                See how experienced developers solve problems in real-time. 
+                Watching scripted tutorials is great, 
+                but understanding how developers think is invaluable.
+            </p>
+        </section>
+        
+        <section class="form-container">
+            <div class="subscribre-message">
+                <strong>Try it free 7 days </strong><span>then $20/mo. thereafter</span>
+            </div>
+
+            <form>
+                <div class="form-group">
+                    <input type="text" id="firstname" placeholder="First Name">
+
+                    <div class="infos-error">
+                        <i class="fas fa-exclamation-circle icon-error"></i>
+                        <span class="message-error">Error</span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" id="lastname" placeholder="Last Name">
+
+                    <div class="infos-error">
+                        <i class="fas fa-exclamation-circle icon-error"></i>
+                        <span class="message-error">Error</span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Email">
+
+                    <div class="infos-error">
+                        <i class="fas fa-exclamation-circle icon-error"></i>
+                        <span class="message-error">Error</span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <input type="password" id="password" placeholder="Password">
+
+                    <div class="infos-error">
+                        <i class="fas fa-exclamation-circle  icon-error"></i>
+                        <span class="message-error">Error</span>
+                    </div>
+                </div>
+
+                <button class="btn-submit">
+                    claim your free trial
+                </button>
+
+                <span class="term-message">
+                    By clicking the button, you are agreeing to our <a href="#">Terms an Services</a>
+                </span>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
